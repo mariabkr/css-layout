@@ -1,8 +1,8 @@
 
 nav {
     display: flex;
-    justify-content: space-between; /* Pour aligner l'image à gauche et les onglets à droite */
-    align-items: center; /* Pour aligner verticalement */
+    justify-content: space-between; 
+    align-items: center; 
     padding: 10px; /* Ajoute un peu d'espace autour */
     background-color: #ffffff;
 }
@@ -24,22 +24,22 @@ nav {
 }
 
 .principale {
-    display: flex;  /*celui-ci devient un conteneur flexible. */
-    flex-direction: column; /* Empile les éléments verticalement */
-    justify-content: center; /* Centre les éléments horizontalement */
+    display: flex; 
+    flex-direction: column; /*  verticalement */
+    justify-content: center; /* horizontalement */
     align-items: center; /* Centre les éléments verticalement */
-    height: 40vh; /* Ajuste la hauteur selon la fenêtre */
+
 }
 
 .principale img {
-    width: 40px; /* Ajuste la largeur de l'image */
-    margin-bottom: 10px; /* Espace entre l'image et le texte */
+    width: 40px; 
+    margin-bottom: 10px; 
 }
 
 #intro {
     display: flex;
-    justify-content: center; /* Centre le texte horizontalement */
-    text-align: center; /* Centre le texte à l'intérieur de son conteneur */
+    justify-content: center; 
+    text-align: center; 
     color: #00b39b;
     font-size: 30px;
 }
